@@ -13,22 +13,22 @@ test("login using css",async({page})=>{
 })
 
 
-//test.only("login using built-in locators",async({page})=> { //only=> annotation
+// //test.only("login using built-in locators",async({page})=> { //only=> annotation
 
-await page.goto("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+// await page.goto("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 
-await expect(page.getByAltText("company-branding")).toBeVisible();
-// await expect(page.getByText("Login")).toBeVisible();
+// await expect(page.getByAltText("company-branding")).toBeVisible();
+// // await expect(page.getByText("Login")).toBeVisible();
 
-await expect(page.getByRole("heading", {name:"Login"})).toBeVisible();
+// await expect(page.getByRole("heading", {name:"Login"})).toBeVisible();
 
-await page.getByPlaceholder ("Username").fill("Admin");
+// await page.getByPlaceholder ("Username").fill("Admin");
 
-await page.getByPlaceholder ("Password").fill("admin123");
+// await page.getByPlaceholder ("Password").fill("admin123");
 
-await page.getByRole("button", {name:" Login"}).click();
+// await page.getByRole("button", {name:" Login"}).click();
 
-await page.pause();
+// await page.pause();
 
 //})
 
