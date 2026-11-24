@@ -4,7 +4,7 @@ import { test, expect } from '@playwright/test';
 test.describe('Login Test Cases Using XPath', () => {
 
     // Test Case 1: Positive Login Test
-    test.only('Positive Login Test', async ({ page }) => {
+    test('Positive Login Test', async ({ page }) => {
 
         await page.goto('https://practicetestautomation.com/practice-test-login/');
 
