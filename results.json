@@ -1,0 +1,459 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "D:\\PLAYWRIGHT_1006\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "tags.spec.js",
+      "--project=chromium"
+    ],
+    "configFile": "D:\\PLAYWRIGHT_1006\\playwright.config.js",
+    "rootDir": "D:/PLAYWRIGHT_1006/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 4
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "D:/PLAYWRIGHT_1006/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 4
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "D:/PLAYWRIGHT_1006/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "html",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "tags.spec.js",
+      "file": "tags.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "personal",
+          "file": "tags.spec.js",
+          "line": 3,
+          "column": 6,
+          "specs": [
+            {
+              "title": "test one @reg",
+              "ok": true,
+              "tags": [
+                "reg"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 17,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "test one executed successfully\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-04T03:31:00.958Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "6f04d274b98211334efa-4d8c452fe547303e5b9e",
+              "file": "tags.spec.js",
+              "line": 5,
+              "column": 9
+            },
+            {
+              "title": "test two @reg",
+              "ok": true,
+              "tags": [
+                "reg"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 16,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "test two executed successfully\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-04T03:31:00.916Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "6f04d274b98211334efa-5d38068759546e9a1c87",
+              "file": "tags.spec.js",
+              "line": 9,
+              "column": 9
+            },
+            {
+              "title": "test three @reg",
+              "ok": true,
+              "tags": [
+                "reg"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 33,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "test three executed successfully\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-04T03:31:01.302Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "6f04d274b98211334efa-aa842b0c0e477101896e",
+              "file": "tags.spec.js",
+              "line": 13,
+              "column": 9
+            },
+            {
+              "title": "test four @reg",
+              "ok": true,
+              "tags": [
+                "reg"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 43,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "test four executed successfully\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-04T03:31:01.094Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "6f04d274b98211334efa-fbaf1c7ee7bfaf4a5e43",
+              "file": "tags.spec.js",
+              "line": 17,
+              "column": 9
+            },
+            {
+              "title": "test five @smoke @reg",
+              "ok": true,
+              "tags": [
+                "smoke",
+                "reg"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 9,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "test five executed successfully\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-04T03:31:01.112Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "6f04d274b98211334efa-86f7de6e5fffd0897e5e",
+              "file": "tags.spec.js",
+              "line": 21,
+              "column": 9
+            },
+            {
+              "title": "test six @smoke",
+              "ok": true,
+              "tags": [
+                "smoke"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 5,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "test six executed successfully\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-04T03:31:01.338Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "6f04d274b98211334efa-af4109545ecebc6bc4ce",
+              "file": "tags.spec.js",
+              "line": 25,
+              "column": 9
+            },
+            {
+              "title": "test seven @smoke @sanity",
+              "ok": true,
+              "tags": [
+                "smoke",
+                "sanity"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 12,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "test seven executed successfully\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-04T03:31:01.429Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "6f04d274b98211334efa-a007d0c98be01176dd29",
+              "file": "tags.spec.js",
+              "line": 29,
+              "column": 9
+            },
+            {
+              "title": "test eight @sanity",
+              "ok": true,
+              "tags": [
+                "sanity"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 7,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "test eight executed successfully\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-04T03:31:01.436Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "6f04d274b98211334efa-f4ddbaa6f69e2d460b2e",
+              "file": "tags.spec.js",
+              "line": 33,
+              "column": 9
+            },
+            {
+              "title": "test nine @sanity @reg",
+              "ok": true,
+              "tags": [
+                "sanity",
+                "reg"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 11,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "test nine executed successfully\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-04T03:31:01.527Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "6f04d274b98211334efa-12b74069328cf01f7ed0",
+              "file": "tags.spec.js",
+              "line": 37,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-11-04T03:30:59.226Z",
+    "duration": 2545.4849999999997,
+    "expected": 9,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
